@@ -27,7 +27,7 @@ The main requirements are:
 - Python 3.9
 - Tensorflow 2.6.0
 
-A complete listing of the python package environment (which uses `pip`) is listed in `requirements.txt`.  **!!! MAKE THIS !!!!!!!!!!!!!!!!**
+A complete listing of the python package environment (which uses anaconda) is listed in `requirements.txt`.
 
 
 # Installation
@@ -218,7 +218,7 @@ Additional settings are available in `config.toml` (which is created after runni
 
 ## Hyperparameter Optimization (HPO)
 
-Neural network hyperparameter requires [hyperopt](https://github.com/hyperopt/hyperopt) version `0.2.7`.
+Neural network hyperparameter requires [hyperopt](https://github.com/hyperopt/hyperopt) version `0.2.5`.
 
 Performing HPO with hyperopt requires running a "master" process which maintains a MongoDB database of hyperparameter configurations (known as trials) that have been tried so far
 and decides what configuration to try next.
