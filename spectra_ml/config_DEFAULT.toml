@@ -1,0 +1,16 @@
+[paths]
+results_dir = "A:/my-results"
+
+[plot]
+loss_history = true
+target_vs_predictions = true
+target_vs_predictions_per_run = true
+conv_filters = true
+FC_weights = true
+
+[NN_models]
+save_checkpoints = false
+
+[sklearn_models]
+plot_coefs = true
+plot_loadings = true
